@@ -1,0 +1,47 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-top: 25px;
+    background-color: #28637f;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.header h1, .header h2 {
+    margin: 0;
+}
+
+.header h1 {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.header h2 {
+    flex-basis: 100%;
+    text-align: center;
+    color: lightgray;
+    font-weight: normal;
+}
+
+.header nav {
+    margin-left: auto;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}
